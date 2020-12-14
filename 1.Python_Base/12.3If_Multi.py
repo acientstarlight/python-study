@@ -9,7 +9,7 @@
 当银行卡转入低于1000时不取款直接结束取款
 取款结束后显示输出余额
 """
-moneyIn = int(input("银行卡转入金额"))
+moneyIn = int(input("插入银行卡，查询银行卡转入的金额："))
 if moneyIn>10000:
     moneyOut = 8000
     moneyLeft = moneyIn-moneyOut
@@ -31,6 +31,3 @@ else:
     moneyLeft = moneyIn
     print("取款后银行卡余额为", moneyLeft)
 print("结束取款")
-
-
-
