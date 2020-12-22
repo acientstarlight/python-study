@@ -11,4 +11,3 @@ print(list(r3))
 print(20 not in r3)
 print(20 in r3)
 print(5 in r3)
-
