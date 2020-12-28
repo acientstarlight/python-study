@@ -8,7 +8,3 @@ for i in range(100,1000):
         print(i)
         sum+=i
 print("输出100-999之间的水仙花数之和为：",sum)
-
-
-
-
