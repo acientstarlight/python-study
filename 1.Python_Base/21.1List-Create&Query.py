@@ -8,4 +8,6 @@ print(lst[2])
 lst2 = ["我","我",1,{1,2}]
 print(lst2.index("我"),lst2.index({1,2}))
 # 在指定位置区域寻找指定的元素
-print(lst2.index({1,2},0,4))
+print(lst2.index({1,2},2,4))
+print(lst[-1])
+print(lst2[-4])
