@@ -21,8 +21,8 @@ print(s5)
 """获取两个集合的并集"""
 s6 = {1,7,8}
 print(s6.union(s2))
-"""输出两个集合的差集"""
-print(s1.difference(s5))
+"""输出一个集合中关于和另一个集合的差集"""
+print(s2.difference(s6))
 """移除两个集合都包含的元素"""
 s2.difference_update(s6)
 print(s2)
