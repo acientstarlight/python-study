@@ -26,6 +26,12 @@ print(s2.difference(s6))
 """移除两个集合都包含的元素"""
 s2.difference_update(s6)
 print(s2)
+# 返回两个集合中不重复的元素集合，即会移除两个集合中都存在的元素
+s7 = {8,9,10}
+print(s6.symmetric_difference(s7))
+# 移除当前集合中在另外一个指定集合相同的元素，并将另外一个指定集合中不同的元素插入到当前集合中
+s6.symmetric_difference_update(s7)
+print(s6)
 
 
 
